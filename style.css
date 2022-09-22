@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero,
+.footer {
+  background-color: #1F2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.header li, 
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.random-info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 256px;
+}
+
+.hero .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.hero .links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+}
+
+.hero .content {
+  display: flex;
+  gap: 32px;
+  padding: 96px 0;
+}
+
+.hero .picture {
+  width: 800px;
+  height: 250px;
+  background-color: #888;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: 1px solid #3882F6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-info .content {
+  display: flex;
+  gap: 16px;
+}
+
+.random-info .info {
+  text-align: center;
+}
+
+.random-info .square {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+}
+
+.quote {
+  padding: 128px 256px;
+}
+
+.quote .author {
+  text-align: right;
+  font-weight: 900;
+  font-size: 18px;
+  padding-top: 32px;
+}
+
+.call-to-action .blue-square {
+  background-color: #3882F6;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 64px;
+  border-radius: 8px;
+  margin: 100px auto;
+}
+
+.call-to-action h3,
+.call-to-action p {
+  margin: 8px;
+}
+
+.call-to-action button {
+  border: 1px solid #fff;
+  padding: 8px 36px;
+}
+
+.footer {
+  padding: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
